@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.door {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+.direction {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.bn {
+  width: 200px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: lightgreen;
+  color: black;
+  font-size: 25px;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+.choice {
+  margin: 10px;
+  background-color: palevioletred;
+  opacity: 0;
+}
+
+.choicebox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

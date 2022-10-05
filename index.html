@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monthy Hall</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p>
+      <u>welcome to monthy hall game</u>
+    </p>
+    <div class="direction">please choose A door</div>
+    <div class="container">
+      <div class="door" id="first">
+        <img id="one" class="theimg" src="door.jpg" style="width: 300px; height: 300px" />
+        <button id="buttonone" class="bn pick" onclick="bn1()">pick door</button>
+      </div>
+      <div class="door" id="second">
+        <img id="two" class="theimg" src="door.jpg" style="width: 300px; height: 300px" />
+        <button id="buttontwo" class="bn pick" onclick="bn2()">pick door</button>
+      </div>
+      <div class="door" id="third">
+        <img id="third" class="theimg three" src="door.jpg" style="width: 300px; height: 300px" />
+        <button id="buttonthree" class="bn pick" onclick="bn3()">pick door</button>
+      </div>
+    </div>
+    <div class="choicebox">
+      <button class="bn choice" id="choiceone" onclick="stay()">STAY</button>
+      <button class="bn choice" id="choicetwo" onclick="move()">MOVE</button>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
